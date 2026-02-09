@@ -1,10 +1,5 @@
 # Competition Management System (QuizApp)
 
-**Module:** 5CS019 – Object Oriented Design and Programming  
-**Student:** Piyush Rauniyar  
-**Student ID:** 2005494  
-**Date:** February 2026  
-
 ---
 
 ## 1. Project Overview
