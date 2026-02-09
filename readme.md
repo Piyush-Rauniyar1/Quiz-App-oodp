@@ -145,6 +145,5 @@ src/test/
 
 7. Documentation
 
-Full API documentation is generated using Javadoc.
-
+git config --global user.email "you@example.com"
 The generated HTML files are available in the doc/ directory.
