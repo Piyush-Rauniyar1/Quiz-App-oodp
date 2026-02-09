@@ -47,7 +47,6 @@ public class PiyCompetitor {
     public int[] getScoreArray() {
         return scores;
     }
-    // -------------------------------------------
 
     public void saveToDatabase() {
         String sql = "UPDATE Competitors SET level=?, score1=?, score2=?, score3=?, score4=?, score5=? WHERE competitor_id=?";

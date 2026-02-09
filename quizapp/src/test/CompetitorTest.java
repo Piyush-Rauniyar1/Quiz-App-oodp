@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * JUnit 5 Tests for the PiyCompetitor class.
- * Covers requirements from Part One and Part Two of the assessment.
+
  */
 public class CompetitorTest {
 

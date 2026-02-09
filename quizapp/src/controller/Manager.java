@@ -45,11 +45,9 @@ public class Manager {
      * Prints a formatted table of all competitors.
      */
     private void printFullReport() {
-        System.out.println("\n==========================================================================");
-        System.out.println("                       COMPETITION RESULT REPORT                          ");
-        System.out.println("==========================================================================");
+
         System.out.printf("%-5s %-20s %-15s %-20s %-10s\n", "ID", "Name", "Level", "Scores", "Overall");
-        System.out.println("--------------------------------------------------------------------------");
+
 
         for (PiyCompetitor c : list.getAllCompetitors()) {
             System.out.printf("%-5d %-20s %-15s %-20s %-10.1f\n",
@@ -59,7 +57,7 @@ public class Manager {
                     java.util.Arrays.toString(c.getScores()),
                     c.getOverallScore());
         }
-        System.out.println("--------------------------------------------------------------------------");
+
     }
 
     /**
@@ -80,6 +78,6 @@ public class Manager {
     private void printStatistics() {
         System.out.println("\n*** STATISTICAL SUMMARY ***");
         System.out.println(list.getScoreFrequencyReport());
-        System.out.println("==========================================================================\n");
+
     }
 }
